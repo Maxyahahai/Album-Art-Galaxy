@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect } from 'react';
@@ -96,8 +97,9 @@ export default function AlbumDetailPage() {
             <Image
               src={album.artUrl}
               alt={`Album art for ${album.title}`}
-              layout="fill"
-              objectFit="cover"
+              fill
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-cover"
               priority
               data-ai-hint="music album"
             />

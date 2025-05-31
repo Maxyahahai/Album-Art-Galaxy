@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from 'next/image';
@@ -20,13 +21,13 @@ export function AlbumCard({ album }: AlbumCardProps) {
   return (
     <Card className="flex flex-col overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 h-full">
       <CardHeader className="p-0">
-        <Link href={`/album/${album.id}`} className="block aspect-square relative overflow-hidden">
+        <Link href={`/album/${album.id}`} className="block aspect-square relative overflow-hidden group">
           <Image
             src={album.artUrl}
             alt={`Album art for ${album.title} by ${album.artist}`}
-            layout="fill"
-            objectFit="cover"
-            className="transition-transform duration-300 group-hover:scale-105"
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
             data-ai-hint="music album"
           />
         </Link>
