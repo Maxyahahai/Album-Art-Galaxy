@@ -10,6 +10,7 @@ export const mockAlbums: Album[] = [
     genre: 'Indian Hiphop',
     year: 2020,
     tags: ['indian hiphop', 'delhi', 'rap'],
+    dataAiHint: 'street art graffiti',
   },
   {
     id: '2',
@@ -19,6 +20,7 @@ export const mockAlbums: Album[] = [
     genre: 'Hiphop',
     year: 2015,
     tags: ['hiphop', 'conscious rap', 'west coast'],
+    dataAiHint: 'protest crowd',
   },
   {
     id: '3',
@@ -28,6 +30,7 @@ export const mockAlbums: Album[] = [
     genre: 'Hiphop',
     year: 2001,
     tags: ['hiphop', 'east coast', 'classic'],
+    dataAiHint: 'architectural blueprint',
   },
   {
     id: '4',
@@ -37,6 +40,7 @@ export const mockAlbums: Album[] = [
     genre: 'Hiphop',
     year: 2001,
     tags: ['hiphop', 'east coast', 'lyrical'],
+    dataAiHint: 'city skyline night',
   },
   {
     id: '5',
@@ -46,6 +50,7 @@ export const mockAlbums: Album[] = [
     genre: 'Indian Hiphop',
     year: 2018,
     tags: ['indian hiphop', 'delhi', 'duo'],
+    dataAiHint: 'abstract soundwaves',
   },
   {
     id: '6',
@@ -55,6 +60,7 @@ export const mockAlbums: Album[] = [
     genre: 'Hiphop',
     year: 1994,
     tags: ['hiphop', 'east coast', 'golden age', 'classic'],
+    dataAiHint: 'childhood photo vintage',
   },
   {
     id: '7',
@@ -64,6 +70,7 @@ export const mockAlbums: Album[] = [
     genre: 'Indian Hiphop',
     year: 2022,
     tags: ['indian hiphop', 'dehradun', 'storytelling'],
+    dataAiHint: 'ancient manuscript',
   },
   {
     id: '8',
@@ -73,6 +80,7 @@ export const mockAlbums: Album[] = [
     genre: 'Hiphop',
     year: 2010,
     tags: ['hiphop', 'experimental', 'chicago'],
+    dataAiHint: 'baroque painting',
   },
   {
     id: '9',
@@ -82,6 +90,7 @@ export const mockAlbums: Album[] = [
     genre: 'Indian Hiphop',
     year: 2021,
     tags: ['indian hiphop', 'punjabi', 'social commentary'],
+    dataAiHint: 'traditional patterns',
   },
   {
     id: '10',
@@ -91,5 +100,6 @@ export const mockAlbums: Album[] = [
     genre: 'Indian Hiphop',
     year: 2019,
     tags: ['indian hiphop', 'mumbai', 'soundtrack', 'various artists'],
+    dataAiHint: 'urban street scene',
   },
 ];

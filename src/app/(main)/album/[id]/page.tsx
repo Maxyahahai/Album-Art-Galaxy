@@ -101,7 +101,7 @@ export default function AlbumDetailPage() {
               sizes="(min-width: 768px) 50vw, 100vw"
               className="object-cover"
               priority
-              data-ai-hint="music album"
+              data-ai-hint={album.dataAiHint || "music album"}
             />
           </div>
           <div className="md:w-1/2 flex flex-col">
